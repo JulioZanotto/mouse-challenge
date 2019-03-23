@@ -1,0 +1,19 @@
+<MouseScreen>:
+	lbl: predict
+	lbl2: name
+	rows: 2
+	padding:10
+	spacing:10
+
+	BoxLayout:
+		Label:
+			id:predict
+
+		Label:
+			id: name
+
+	BoxLayout:
+		Button:
+			size:10,10
+			text:"Reset"
+			on_press: root.buttonClear()
